@@ -17,6 +17,6 @@ vvp <MUX2_1_testbend.vvp>
 > get file vcd to check wave signal
 
 ## Run vcd file:
-* ** Step 1 **: gtkwave => use to check wave signal
-* ** Step 2 **: Add vcd file.
-* ** STep 3 **: Select signal and "Append" to see wave signal
+* **Step 1**: *gtkwave* => use to check wave signal
+* **Step 2**: Add vcd file.
+* **Step 3**: Select signal and "*Append*" to see wave signal
