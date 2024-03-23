@@ -1,0 +1,69 @@
+$date
+	Sat Mar 23 13:30:35 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module comparator4bit_tb $end
+$var wire 1 ! less $end
+$var wire 1 " greater $end
+$var wire 1 # equal $end
+$var reg 4 $ w0 [3:0] $end
+$var reg 4 % w1 [3:0] $end
+$scope module comparator $end
+$var wire 4 & w0 [3:0] $end
+$var wire 4 ' w1 [3:0] $end
+$var reg 1 # equal $end
+$var reg 1 " greater $end
+$var reg 1 ! less $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 '
+b1 &
+b1 %
+b1 $
+1#
+0"
+0!
+$end
+#20
+0#
+1"
+b11 $
+b11 &
+#40
+1#
+0"
+b101 %
+b101 '
+b101 $
+b101 &
+#60
+b1000 %
+b1000 '
+b1000 $
+b1000 &
+#80
+0#
+1!
+b1011 %
+b1011 '
+b110 $
+b110 &
+#100
+1#
+0!
+b1010 %
+b1010 '
+b1010 $
+b1010 &
+#120

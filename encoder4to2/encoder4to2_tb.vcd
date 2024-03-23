@@ -1,0 +1,44 @@
+$date
+	Wed Mar 20 14:25:08 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module encoder4to2_tb $end
+$var wire 3 ! Y [2:0] $end
+$var reg 4 " i [3:0] $end
+$scope module encoder $end
+$var wire 4 # r [3:0] $end
+$var reg 3 $ y [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100 $
+b110 #
+b110 "
+b100 !
+$end
+#20
+b11 !
+b11 $
+b1010 "
+b1010 #
+#40
+b10 !
+b10 $
+b1101 "
+b1101 #
+#60
+b0 !
+b0 $
+b1111 "
+b1111 #
+#80

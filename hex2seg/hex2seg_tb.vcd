@@ -1,0 +1,131 @@
+$date
+	Sat Mar 23 14:45:34 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module hex2seg_tb $end
+$var wire 7 ! segs [6:0] $end
+$var reg 4 " w0 [3:0] $end
+$scope module hex $end
+$var wire 4 # w0 [3:0] $end
+$var parameter 7 $ eight $end
+$var parameter 7 % eleven $end
+$var parameter 7 & fifteen $end
+$var parameter 7 ' five $end
+$var parameter 7 ( four $end
+$var parameter 7 ) fourteen $end
+$var parameter 7 * nine $end
+$var parameter 7 + one $end
+$var parameter 7 , seven $end
+$var parameter 7 - six $end
+$var parameter 7 . ten $end
+$var parameter 7 / thirteen $end
+$var parameter 7 0 three $end
+$var parameter 7 1 twelve $end
+$var parameter 7 2 two $end
+$var parameter 7 3 zero $end
+$var reg 7 4 segs [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 3
+b10010 2
+b110001 1
+b110 0
+b1000010 /
+b1000 .
+b100000 -
+b1111 ,
+b1001111 +
+b100 *
+b110000 )
+b1001100 (
+b100100 '
+b111000 &
+b1100000 %
+b0 $
+$end
+#0
+$dumpvars
+b1001111 4
+b1 #
+b1 "
+b1001111 !
+$end
+#20
+b10010 !
+b10010 4
+b10 "
+b10 #
+#40
+b110 !
+b110 4
+b11 "
+b11 #
+#60
+b1001100 !
+b1001100 4
+b100 "
+b100 #
+#80
+b100100 !
+b100100 4
+b101 "
+b101 #
+#100
+b100000 !
+b100000 4
+b110 "
+b110 #
+#120
+b1111 !
+b1111 4
+b111 "
+b111 #
+#140
+b0 !
+b0 4
+b1000 "
+b1000 #
+#160
+b100 !
+b100 4
+b1001 "
+b1001 #
+#180
+b1000 !
+b1000 4
+b1010 "
+b1010 #
+#200
+b1100000 !
+b1100000 4
+b1011 "
+b1011 #
+#220
+b110001 !
+b110001 4
+b1100 "
+b1100 #
+#240
+b1000010 !
+b1000010 4
+b1101 "
+b1101 #
+#260
+b110000 !
+b110000 4
+b1110 "
+b1110 #
+#280
+b111000 !
+b111000 4
+b1111 "
+b1111 #
+#300

@@ -1,0 +1,124 @@
+$date
+	Wed Mar 20 13:06:01 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module mux21_4_tb $end
+$var wire 4 ! Y [3:0] $end
+$var reg 1 " S $end
+$var reg 4 # wa [3:0] $end
+$var reg 4 $ wb [3:0] $end
+$scope module mux $end
+$var wire 1 " s $end
+$var wire 4 % w0 [3:0] $end
+$var wire 4 & w1 [3:0] $end
+$var wire 4 ' y [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 '
+b111 &
+b1 %
+b111 $
+b1 #
+0"
+b1 !
+$end
+#20
+b10 !
+b10 '
+b10 #
+b10 %
+#40
+b11 !
+b11 '
+b11 #
+b11 %
+#60
+b100 !
+b100 '
+b100 #
+b100 %
+#80
+b101 !
+b101 '
+b101 #
+b101 %
+#100
+b110 !
+b110 '
+b110 #
+b110 %
+#120
+b111 !
+b111 '
+b111 #
+b111 %
+#140
+b1000 !
+b1000 '
+b1000 #
+b1000 %
+#160
+b1001 !
+b1001 '
+b1001 #
+b1001 %
+#180
+b1 !
+b1 '
+1"
+b111 #
+b111 %
+b1 $
+b1 &
+#200
+b10 !
+b10 '
+b10 $
+b10 &
+#220
+b11 !
+b11 '
+b11 $
+b11 &
+#240
+b100 !
+b100 '
+b100 $
+b100 &
+#260
+b101 !
+b101 '
+b101 $
+b101 &
+#280
+b110 !
+b110 '
+b110 $
+b110 &
+#300
+b111 !
+b111 '
+b111 $
+b111 &
+#320
+b1000 !
+b1000 '
+b1000 $
+b1000 &
+#340
+b1001 !
+b1001 '
+b1001 $
+b1001 &
+#360

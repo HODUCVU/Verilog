@@ -1,0 +1,69 @@
+$date
+	Wed Mar 20 11:18:09 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module encoder8to3_tb $end
+$var wire 4 ! tb_Y [3:0] $end
+$var reg 8 " tb_r [7:0] $end
+$scope module encoder $end
+$var wire 8 # r [7:0] $end
+$var reg 4 $ Y [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1000 $
+b1010110 #
+b1010110 "
+b1000 !
+$end
+#20
+b111 !
+b111 $
+b10010110 "
+b10010110 #
+#40
+b110 !
+b110 $
+b11010110 "
+b11010110 #
+#60
+b101 !
+b101 $
+b11100110 "
+b11100110 #
+#80
+b100 !
+b100 $
+b11110110 "
+b11110110 #
+#100
+b11 !
+b11 $
+b11111010 "
+b11111010 #
+#120
+b10 !
+b10 $
+b11111100 "
+b11111100 #
+#140
+b1 !
+b1 $
+b11111110 "
+b11111110 #
+#160
+b0 !
+b0 $
+b11111111 "
+b11111111 #
+#180
