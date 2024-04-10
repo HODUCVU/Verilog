@@ -1,0 +1,91 @@
+$date
+	Mon Mar 25 14:19:53 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module units_tb $end
+$var wire 1 ! ytb $end
+$var reg 4 " itb [3:0] $end
+$scope module u $end
+$var wire 4 # i [3:0] $end
+$var reg 1 $ w1 $end
+$var reg 1 % w2 $end
+$var reg 1 ! y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1%
+1$
+b0 #
+b0 "
+1!
+$end
+#20
+b1 "
+b1 #
+#40
+b10 "
+b10 #
+#60
+0!
+0%
+0$
+b11 "
+b11 #
+#80
+1!
+1%
+1$
+b100 "
+b100 #
+#100
+b101 "
+b101 #
+#120
+b110 "
+b110 #
+#140
+0$
+b111 "
+b111 #
+#160
+0!
+1$
+b1000 "
+b1000 #
+#180
+b1001 "
+b1001 #
+#200
+b1010 "
+b1010 #
+#220
+0%
+0$
+b1011 "
+b1011 #
+#240
+1%
+1$
+b1100 "
+b1100 #
+#260
+b1101 "
+b1101 #
+#280
+b1110 "
+b1110 #
+#300
+0$
+b1111 "
+b1111 #
+#320
