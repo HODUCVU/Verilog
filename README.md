@@ -35,6 +35,7 @@
 │   ├── mux21_4
 │   │   ├── mux21_4.v
 │   │   ├── mux21_4_tb.v
+│   │   └── simulation.gtkw
 │   └── mux41_4
 │       ├── mux41_4.v
 │       ├── mux41_4_tb.v
@@ -44,17 +45,19 @@
     │   ├── dff_reset_tb.v
     ├── DFF_with_Synchronous_enable
     │   ├── dff_en_2seg.v
-    │   └── dff_en_2seg_tb.v
+    │   ├── dff_en_2seg_tb.v
     ├── Register_file
     │   ├── reg_file.v
-    │   └── reg_file_tb.v
+    │   ├── reg_file_tb.v
+    ├── Register_file_Advance
+    │   ├── register_file.v
+    │   ├── register_file_tb.v
     ├── Universal_Binary_Counter
     │   ├── univ_bin_couter.v
     │   └── univ_bin_couter_tb.v
     └── Universal_Shift_Register
         ├── shift_register.v
-        └── shift_register_tb.v
-```
+        └── shift_register_tb.v```
 ## Start: 
 ```
 iverilog.exe
