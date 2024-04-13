@@ -1,0 +1,72 @@
+$date
+	Sat Apr 13 14:05:55 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module reg_file_tb $end
+$var wire 8 ! r_data [7:0] $end
+$var parameter 32 " B $end
+$var parameter 32 # W $end
+$var reg 1 $ clk $end
+$var reg 2 % r_addr [1:0] $end
+$var reg 2 & w_addr [1:0] $end
+$var reg 8 ' w_data [7:0] $end
+$var reg 1 ( wr_en $end
+$scope module reg_unit $end
+$var wire 1 $ clk $end
+$var wire 2 ) r_addr [1:0] $end
+$var wire 8 * r_data [7:0] $end
+$var wire 2 + w_addr [1:0] $end
+$var wire 8 , w_data [7:0] $end
+$var wire 1 ( wr_en $end
+$var parameter 32 - B $end
+$var parameter 32 . W $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 .
+b1000 -
+b10 #
+b1000 "
+$end
+#0
+$dumpvars
+b0 ,
+b0 +
+bx *
+b0 )
+0(
+b0 '
+b0 &
+b0 %
+x$
+bx !
+$end
+#3
+b1111 '
+b1111 ,
+b1 %
+b1 )
+#6
+1(
+#15
+b1010 '
+b1010 ,
+b0 %
+b0 )
+b1 &
+b1 +
+#21
+b101 '
+b101 ,
+b1 %
+b1 )
+b0 &
+b0 +
+#24
