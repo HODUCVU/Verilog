@@ -57,7 +57,8 @@
     │   └── univ_bin_couter_tb.v
     └── Universal_Shift_Register
         ├── shift_register.v
-        └── shift_register_tb.v```
+        └── shift_register_tb.v
+```
 ## Start: 
 ```
 iverilog.exe
