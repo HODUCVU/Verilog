@@ -10,5 +10,9 @@ clk (rising edge), 1 reset signal active high
 4. Write test bench to verify the operation of the FSM
 ## FSM Diagram
 ![](./images/diagram.png)
+## Run
+```
+terminal> gtkwave.exe sequence_detector_2_tb.vcd
+```
 ## Wave
 ![](./images/wave.png) 
