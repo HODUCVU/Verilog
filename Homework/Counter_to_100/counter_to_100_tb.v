@@ -1,5 +1,4 @@
 `timescale 1ns/1ns 
-//`include "counter_to_10.v"
 `include "counter_to_100.v"
 
 module counter_to_100_tb();
@@ -27,14 +26,14 @@ module counter_to_100_tb();
 
   initial 
   begin 
-    #(T/2) reset <= 1; 
-    #(T/2); reset <= 0; up_down <=1;
+    reset <= 1; up_down <= 0; 
+    #(T); reset <= 0; up_down <=1;
     #(T*10);
     //reset <= 1;
-    #(T);up_down <=0;
+    #(T); up_down <=0;
     #(T*10);
     up_down <= 1;
-    #(T*2) up_down <= 0;
+    #(T*2); up_down <= 0;
     #(T*4);$finish;
   end
 endmodule 

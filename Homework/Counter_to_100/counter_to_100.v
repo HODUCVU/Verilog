@@ -1,13 +1,8 @@
-//`include "../Counter_to_10/counter_to_10_ex.v"
-
 module counter_to_100(clk, reset, up_down, count10, count100, carry10, carry100);
 
   input wire clk, reset, up_down;
   output reg carry10, carry100;
   output reg[3:0] count10, count100;
-
-  //counter_to_10 counter10 (clk, reset, up_down, count10, carry10);
-  //counter_to_10 counter100(carry10, reset, up_down, count100,carry100);
 
   always @(posedge clk or posedge reset)
   begin 

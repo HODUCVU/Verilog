@@ -8,8 +8,6 @@ module counter_to_10_tb();
   wire[3:0] q;
 
   localparam T = 20;
-  // module counter_to_10(clk, reset, d, q, c);
-  //counter_to_10 counter(clk, reset, d, q, c);
   //module counter_to_10(clk, reset, up_down, count, carry);
   counter_to_10 counter (clk, reset, d, q, c);
   always 
@@ -28,13 +26,17 @@ module counter_to_10_tb();
 
   initial 
   begin 
-    #(T/2) reset <= 1; 
+    reset <= 1; d <= 0; 
     #(T)
     #(T/2); reset <= 0; d <=0;
     #(T*5);
     reset <= 1;
     #(T/2); reset <= 0; d <=1;
     #(T*5);
+    #(T/2); d <=0;
+    #(T*2); d<=1;
+    #(T); d <=0;
+    #(T*3); d<=1;
 
     #(T*4);$finish;
   end
