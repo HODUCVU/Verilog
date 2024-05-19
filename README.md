@@ -5,17 +5,11 @@
 │   ├── FMUX2_1
 │   │   ├── MUX2_1.v
 │   │   ├── MUX2_1_testbend.v
-│   │   └── MUX2_1_testbend.vvp
 │   ├── FullAdder1bit
 │   │   ├── FullAdder1bit.v
 │   │   ├── FullAdder1bit_tb.v
 │   │   ├── schematic-fulladder.png
 │   │   └── truth-table-fulladder.png
-│   ├── LogicUnits
-│   │   ├── LogicUnits.v
-│   │   ├── LogicUnits_tb.v
-│   │   ├── units.v
-│   │   ├── units_tb.v
 │   ├── comparator4bit
 │   │   ├── comparator4bit.v
 │   │   ├── comparator4bit_tb.v
@@ -39,6 +33,31 @@
 │   └── mux41_4
 │       ├── mux41_4.v
 │       ├── mux41_4_tb.v
+├── FSM
+│   ├── Sequence_detector_2
+│   │   ├── sequence_detector_2_tb.v
+│   ├── sequence_detector
+│   │   ├── sequence_detector.v
+│   │   ├── sequence_detector_tb.v
+│   └── simpleFSM
+│       ├── fsm_eg_mult_seg.v
+│       ├── fsm_eg_mult_seg_tb.v
+├── Homework
+│   ├── Counter_to_10
+│   │   ├── counter-signal.png
+│   │   ├── counter_to_10_ex.v
+│   │   ├── counter_to_10_tb.v
+│   ├── Counter_to_100
+│   │   ├── counter100.png
+│   │   ├── counter_to_100.v
+│   │   ├── counter_to_100_tb.v
+│   ├── HDL_and_FPGA_BaiTapVeNha_2024.pdf
+│   ├── Report_Exercise_FPGA.pdf
+│   ├── Sequence_detector_2
+│   │   ├── README.md
+│   │   ├── sequence_detector_2.v
+│   │   ├── sequence_detector_2_tb.v
+│   └── Verilog.drawio
 └── sequential_circuits
     ├── DFF_with_Asynchronous_Reset
     │   ├── dff_reset.v
@@ -68,7 +87,7 @@ iverilog.exe
 ```
 iverilog -o <MUX2_1_testbend.vvp> <MUX2_1_testbend.v>
 ```
-> with <name run program> <name testbend coded>\
+> with \<name run program\> \<name testbend coded\>
 ## run:
 ```
 vvp <MUX2_1_testbend.vvp>
