@@ -20,7 +20,7 @@ module univ_shift_reg #(parameter N = 8)
 		case(ctrl)
 			2'b00: r_next = r_reg;
 			2'b01: r_next = {r_reg[N-2:0], d[0]};
-			2'b00: r_next = {d[N-1], r_reg[N-1:1]};
+			2'b10: r_next = {d[N-1], r_reg[N-1:1]};
 			default: r_next = d;
 		endcase
 

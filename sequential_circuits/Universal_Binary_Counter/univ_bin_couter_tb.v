@@ -38,8 +38,6 @@ module univ_bin_counter_tb;
     
 	initial 
 	begin
-       // $dumpfile("univ_bin_counter_tb.vcd");
-       // $dumpvars(0,univ_bin_counter_tb);
 		// initial input
 		syn_clr = 1'b0;
 		load = 1'b0;
